@@ -1,47 +1,47 @@
-# Preface
+# 前言
 
-Python is probably one of the few programming languages which is both simple and powerful. This is good for beginners as well as for experts, and more importantly, is fun to program with. This book aims to help you learn this wonderful language and show how to get things done quickly and painlessly - in effect 'The Perfect Anti-venom to your programming problems'.
+Python可能是为数不多的几个既简单又强大的编程语言之一。这对初学者以及专家都很适合，更多重要的是，用Python编程很有趣。本书目的在于帮助你学习这个伟大的语言，展示如何快速而方便地完成任务——事实上是“编程问题的完美解毒药剂”。
 
-## Who This Book Is For
+## 本书为谁而写？
 
-This book serves as a guide or tutorial to the Python programming language. It is mainly targeted at newbies. It is useful for experienced programmers as well.
+本书作为Python编程语言的教程，主要受众是初学者，同时也对有经验的程序员有帮助。
 
-The aim is that if all you know about computers is how to save text files, then you can learn Python from this book. If you have previous programming experience, then you can also learn Python from this book.
+本书目的是，对于计算机，如果你只知道如何保存文本文件，那么你可以通过本书学习Python。如果你之前有编程经验，那么你同样可以通过本书学习Python。
 
-If you do have previous programming experience, you will be interested in the differences between Python and your favorite programming language - I have highlighted many such differences. A little warning though, Python is soon going to become your favorite programming language!
+如果您之前有过编程经验，你应该对Python和你喜欢的编程语言之间的区别感兴趣——我已经将这些区别做了高亮处理。一点警告是，Python很快将成为你最喜爱的编程语言！
 
-## History Lesson
+## 历史
 
-I first started with Python when I needed to write an installer for software I had written called 'Diamond' so that I could make the installation easy. I had to choose between Python and Perl bindings for the Qt library. I did some research on the web and I came across [an article by Eric S. Raymond](http://pythonology.org/success&story=esr), a famous and respected hacker, where he talked about how Python had become his favorite programming language. I also found out that the PyQt bindings were more mature compared to Perl-Qt. So, I decided that Python was the language for me.
+我第一次接触Python，是在我需要为我编写的程序“Diamond”开发一个安装器，以便简化安装过程的时候。我需要在绑定了Qt库的Python和Perl之间进行选择。我在网上做了一些研究，偶然发现了[Eric S. Raymond的一篇文章](http://pythonology.org/success&story=esr)。Raymond是一个著名的值得尊敬的黑客。在这篇文章中他介绍道，Python如何成为他最喜爱的编程语言。比起Perl-Qt，PyQt的绑定更加成熟。所以我决定选择Python。
 
-Then, I started searching for a good book on Python. I couldn't find any!  I did find some O'Reilly books but they were either too expensive or were more like a reference manual than a guide. So, I settled for the documentation that came with Python. However, it was too brief and small. It did give a good idea about Python but was not complete. I managed with it since I had previous programming experience, but it was unsuitable for newbies.
+然后，我开始搜索Python的优秀书籍。我发现我竟然一本都找不到！我的确找到了一些O'Reilly的书，但是它们那么太贵，要么更像是参考手册而不是教程。于是，我建立了一个关于学习Python的文档。但是它过于简单和小巧。它的确给出了关于Python的良好的知识点，但是并不完整。由于我有编程经验，因此我能够理解它，但它并不适合于新手入门。
 
-About six months after my first brush with Python, I installed the (then) latest Red Hat 9.0 Linux and I was playing around with KWord. I got excited about it and suddenly got the idea of writing some stuff on Python. I started writing a few pages but it quickly became 30 pages long. Then, I became serious about making it more useful in a book form. After a *lot* of rewrites, it has reached a stage where it has become a useful guide to learning the Python language.  I consider this book to be my contribution and tribute to the open source community.
+在我第一次使用Python六个月之后，我安装了当时最新的Red Hat 9.0 Linux，开始使用KWord。我非常喜欢这个程序，突然冒出一个想法，写一些关于Python的东西。我开始写出几页，但是很快就有30页长。然后我将其以书的形式严格制作。经过*几次*重写，它已经能够作为学习Python语言的有用教程。我将这本书作为我的贡献捐赠给开源社区。
 
-This book started out as my personal notes on Python and I still consider it in the same way, although I've taken a lot of effort to make it more palatable to others :)
+本书开始于我在Python上面的个人笔记，直到现在我依然这么认为，虽然我努力将其制作的同样满足其他人的口味 :)
 
-In the true spirit of open source, I have received lots of constructive suggestions, criticisms and [feedback](#who-reads-a-byte-of-python) from enthusiastic readers which has helped me improve this book a lot.
+在开源的真正精神中，我收到了很多热心读者的建设性意见、抱怨以及[反馈](#who-reads-a-byte-of-python)，他们帮助我很好地改进了本书。
 
-## Status Of The Book
+## 本书的状态
 
-This book has been reformatted in October 2012 using Pandoc to allow generation of ebooks as requested by several users, along with errata fixes and updates.
+应许多读者的要求，这本书在2012年10月使用Pandoc重新编排，以便生成电子书文档，同时进行了错误修正以及更新。
 
-Changes in December 2008 edition (from the earlier major revision in March 2005) was updating for the Python 3.0 release.
+2008年12月版本的修改（在此之前的主要版本是2005年5月）是更新为Python 3.0。
 
-The book needs the help of its readers such as yourselves to point out any parts of the book which are not good, not comprehensible or are simply wrong. Please [write to the main author](http://www.swaroopch.com/contact/) or the respective [translators](#translations) with your comments and suggestions.
+本书需要像您这样的读者的帮助，以便指出任何不足指出、难以理解的地方以及错误。请给[主要作者](http://www.swaroopch.com/contact/)或者各个[译者](#translations)留下您的感想以及建议。
 
-## Official Website
+## 官方站点
 
-The official website of the book is <http://www.swaroopch.com/notes/Python> where you can read the whole book online, download the latest versions of the book, [buy a printed hard copy](http://www.swaroopch.com/buybook), and also send me feedback.
+本书官方站点是<http://www.swaroopch.com/notes/Python>，在这里您可以在线阅读整本书、下载最新版本、[购买纸质版本](http://www.swaroopch.com/buybook)以及给我留言。
 
-## Something To Think About
+## 另外的思考
 
-> There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies; the other is to make it so complicated that there are no obvious deficiencies.
+> 构建软件设计有两种途径：一种是足够简单以致明显没有缺陷，另一种是足够复杂以致没有明显缺陷。
 >
 > -- C. A. R. Hoare
 
 <!-- -->
 
-> Success in life is a matter not so much of talent and opportunity as of concentration and perseverance.
+> 对于人生的成功，专注和坚持比天才和机会更重要。
 >
 > -- C. W. Wendte
